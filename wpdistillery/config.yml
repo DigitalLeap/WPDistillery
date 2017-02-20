@@ -76,6 +76,8 @@ plugins_active:
 
 # plugins to install
 plugins_inactive:
+  #ecommerce
+  - woocommerce
   #administration
   - wordpress-seo
   - "https://www.dropbox.com/s/gight5f5ij5eyxt/gravityforms.zip?dl=1"

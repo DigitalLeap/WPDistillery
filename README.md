@@ -7,6 +7,7 @@ A great and easy way for us to setup WordPress with the following:
 - Redirection
 - WP Security Audit Log
 - Gravity Forms
+- WooCommerce
 
 For additional information, visit the [Official WPDistillery Website](https://wpdistillery.org). The Documentation on wpdistillery.org is synced with the Github repository files.
 
@@ -16,7 +17,7 @@ To setup a new project running Scotch Box and WordPress, simply follow these ste
 1. Run the following command inside your project root to clone both Scotch Box and WPDistillery and move them to the right place:
 
   ```
-  git clone https://github.com/flurinduerst/WPDistillery.git && mv WPDistillery/Vagrantfile Vagrantfile && mv WPDistillery/wpdistillery wpdistillery2 && rm -rf WPDistillery && mv wpdistillery2 wpdistillery
+  git clone https://github.com/DigitalLeap/wpscotch.git && mv wpscotch/Vagrantfile Vagrantfile && mv wpscotch/wpdistillery wpdistillery2 && rm -rf wpscotch && mv wpdistillery2 wpdistillery
   ```
 
 2. Run `vagrant up` inside your project root
