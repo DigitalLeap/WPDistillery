@@ -20,7 +20,7 @@ To setup a new project running Scotch Box and WordPress, simply follow these ste
   git clone https://github.com/DigitalLeap/wpscotch.git && mv wpscotch/Vagrantfile Vagrantfile && mv wpscotch/wpdistillery wpdistillery2 && rm -rf wpscotch && mv wpdistillery2 wpdistillery
   ```
 
-2. Run `vagrant up` inside your project root
+2. Run `vagrant up` inside your project root (if it fails, run `vagrant provision`)
 
 Done! You can now access your project at https://localhost.dev/ or http://192.168.33.10/.
 
@@ -38,19 +38,3 @@ Using Windows? No Problem! WPDistillery will detect if you're using Windows and 
 * `vagrant reload` will restart vagrant. This is required for changes made in the Vagrantfile to take effect.
 * `vagrant halt` will shut down the running machine.
 * More informations can be found at [vagrantup.com](https://vagrantup.com).
-
-## About
-
-* Author: Flurin Dürst ([Website](https://flurinduerst.ch), [Mail](mailto:flurin@flurinduerst.ch), [Twitter](https://twitter.com/flurinduerst))
-* Contributors:
-  * [@ShaneShipston](https://github.com/ShaneShipston)
-  * [@drawcard](https://github.com/drawcard)
-
-### Contribution
-* Fork it
-* Create your feature branch
-* Commit your changes
-* Push to the branch
-* Create new Pull Request
-
-Feel free to contact me if you have questions or need any advice.
