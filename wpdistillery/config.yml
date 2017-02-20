@@ -19,14 +19,14 @@ wpfolder: public
 wpversion: latest
 
 # language/timezone
-wplocale: en_US
-timezone: "America/New_York"
+wplocale: en_ZA
+timezone: "Africa/Johannesburg"
 
 # admin user settings
 admin:
-  user: admin
+  user: "Digital Leap"
   password: admin
-  email: mail@domain.tld
+  email: admin@digitalleap.co.za
   first_name: ""
   last_name: ""
 
@@ -41,7 +41,7 @@ db:
 #################################################################
 
 wpsettings:
-  url: wpdistillery.dev
+  url: localhost.dev
   title: Example Title
   description: Example Description
   permalink_structure: "/%postname%/"
@@ -62,37 +62,26 @@ wpsettings:
 
 # theme to install, choose new name in 'rename' or leave empty
 theme:
-  name: WPSeed
+  name: LayersWP
   rename: ""
-  url: "https://github.com/flurinduerst/WPSeed/archive/master.zip"
+  url: "https://www.dropbox.com/s/27yg4dm83ii85sj/layerswp.zip?dl=1"
 
 # PLUGINS
 #################################################################
 
 # plugins to install & activate
 plugins_active:
-  - disable-comments
-  - duplicate-post
-  - enable-media-replace
-  - favicon-by-realfavicongenerator
-  - regenerate-thumbnails
-  - simple-page-ordering
-  - user-switching
+  - "https://www.dropbox.com/s/mmqj1xb9shpmtpf/layers-updater-1-3.zip?dl=1"
+  - "https://www.dropbox.com/s/hod0whavnhymnzq/layers-pro.zip?dl=1"
 
 # plugins to install
 plugins_inactive:
-  #development
-  - custom-post-type-ui
-  - search-and-replace
-  - capability-manager-enhanced
   #administration
-  - adminimize
-  - admin-menu-editor
-  - admin-menu-reorder
   - wordpress-seo
+  - "https://www.dropbox.com/s/gight5f5ij5eyxt/gravityforms.zip?dl=1"
+  - redirection
   #security/backup
   - wp-security-audit-log
-  - backwpup
 
 # WPDISTILLERY SETUP
 ####################################################################

@@ -1,36 +1,14 @@
-![Screenshot](http://files.flurinduerst.ch/wpdistillery/wpdistillery_logo.png)
+A great and easy way for us to setup WordPress with the following:
 
-**Version 2.0** (15.01.2017)
-
-With the 2.0 update, the setup process is now much easier. All you need to do after customizing your config file is `vagrant up`. That's it! With that single command, WPDistillery will now ssh to the VM, update WP-CLI, install and configure everything. It also comes with an optional auto-update function and integrated support for Windows. Check out the [Changelog](CHANGELOG.md) for a complete list of changes.
+- LayersWP
+- Layers Pro (activated)
+- Layers Updated (activated)
+- WordPress SEO
+- Redirection
+- WP Security Audit Log
+- Gravity Forms
 
 For additional information, visit the [Official WPDistillery Website](https://wpdistillery.org). The Documentation on wpdistillery.org is synced with the Github repository files.
-
-## What is WPDistillery?
-WP Distillery does all the work for you when setting up a new WordPress project with [Scotch Box](https://box.scotch.io/). Simply add your preferred theme, plugins, options etc. into `config.yml` and you're good to go. With WPDistillery it won't take longer than 5 minutes until you can start working on your new WordPress project.
-One simple command will
-- install Scotch Box
-- install/update requirements on the local webserver
-- download/install/configure WordPress
-- set WordPress options
-- install/activate your favorite WordPress theme (default [WPSeed](https://wpseed.org)).
-- install/activate the plugins you defined in the config
-- clean WordPress defaults (contents, plugins, themes, unused files)
-
-You're able to adjust which of the above tasks will be executed. Simply set the desired tasks to true/false in the "Setup Options" section at the bottom of  `config.yml`
-
-Now you can use your `config.yml` as a template for every new project and save a lot of time clicking, dragging, editing and configuring.
-
-## Demo
-
-[![WPDistillery Setup Video](http://files.flurinduerst.ch/wpdistillery/demovideo_thumb2.png)](https://youtu.be/y1GtIiODsxM)
-
-[Screenshot](http://files.flurinduerst.ch/wpdistillery/setup_screenshot.jpg) (German UI)
-
-
-## Dependencies
-- [ScotchBox](https://box.scotch.io) (using [Vagrant](https://vagrantup.com) & [Virtualbox](https://virtualbox.org))
-- [Vagrant Hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) (`vagrant plugin install vagrant-hostsupdater`)
 
 ## Setup
 To setup a new project running Scotch Box and WordPress, simply follow these steps:
@@ -41,11 +19,9 @@ To setup a new project running Scotch Box and WordPress, simply follow these ste
   git clone https://github.com/flurinduerst/WPDistillery.git && mv WPDistillery/Vagrantfile Vagrantfile && mv WPDistillery/wpdistillery wpdistillery2 && rm -rf WPDistillery && mv wpdistillery2 wpdistillery
   ```
 
-2. customize `wpdistillery/config.yml` (see [configuration file documentation](README_CONFIG.md))
-3. in `Vagrantfile` add your local domain at `config.vm.hostname` (This should be the same as `wpsettings:url:` in `config.yml`)
-4. Run `vagrant up` inside your project root
+2. Run `vagrant up` inside your project root
 
-Done! You can now access your project at the domain defined in step 3. (or at http://192.168.33.10/)
+Done! You can now access your project at https://localhost.dev/ or http://192.168.33.10/.
 
 ## Additional Information
 
@@ -77,8 +53,3 @@ Using Windows? No Problem! WPDistillery will detect if you're using Windows and 
 * Create new Pull Request
 
 Feel free to contact me if you have questions or need any advice.
-
-### License
-WPDistillery is released under an edited version of the MIT License. Please see [License](LICENSE.md).
-
-If you find WPDistillery useful, consider supporting WP Distillery or [buying me a beer](https://www.paypal.me/FlurinDuerst/5) respectively [a glass of single malt scotch whiskey](https://www.paypal.me/FlurinDuerst/10) :)
