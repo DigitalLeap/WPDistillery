@@ -38,3 +38,18 @@ Using Windows? No Problem! WPDistillery will detect if you're using Windows and 
 * `vagrant reload` will restart vagrant. This is required for changes made in the Vagrantfile to take effect.
 * `vagrant halt` will shut down the running machine.
 * More informations can be found at [vagrantup.com](https://vagrantup.com).
+
+## About
+* Original Author: Flurin Dürst ([Website](https://flurinduerst.ch), [Mail](mailto:flurin@flurinduerst.ch), [Twitter](https://twitter.com/flurinduerst))
+* Contributors:
+* [@ShaneShipston](https://github.com/ShaneShipston)
+* [@drawcard](https://github.com/drawcard)
+
+### Contribution
+* Fork it
+* Create your feature branch
+* Commit your changes
+* Push to the branch
+* Create new Pull Request
+
+Feel free to contact me if you have questions or need any advice.
