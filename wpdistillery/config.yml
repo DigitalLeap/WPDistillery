@@ -24,7 +24,7 @@ timezone: "Africa/Johannesburg"
 
 # admin user settings
 admin:
-  user: "digitalleap"
+  user: "flickerleap"
   password: admin
   email: admin@digitalleap.co.za
   first_name: ""

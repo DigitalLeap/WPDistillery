@@ -2,7 +2,7 @@ A great and easy way for us to setup WordPress with the following:
 
 - LayersWP
 - Layers Pro (activated)
-- Layers Updated (activated)
+- Layers Updater (activated)
 - WordPress SEO
 - Redirection
 - WP Security Audit Log
