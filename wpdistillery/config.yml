@@ -62,7 +62,7 @@ wpsettings:
 
 # theme to install, choose new name in 'rename' or leave empty
 theme:
-  name: LayersWP
+  name: Divi
   rename: ""
   url: "https://www.dropbox.com/s/27yg4dm83ii85sj/layerswp.zip?dl=1"
 
