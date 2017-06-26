@@ -1,9 +1,13 @@
 
 # CHANGELOG
 
-## HEAD (2.0.2)
-* fix yaml syntax errors (thanks to @XedinUnknown)
+## 2.1.0 | 21.06.2017
+* update setup for Scotch Box 3.0 (re-install WP-CLI for php7)
+* update default plugin list: remove yoast, add the-seo-framework (see https://roots.io/weve-migrated-from-yoast-seo/)
+* remove max-filesize option on provisioning
 * add license note
+* fix yaml syntax errors (thanks to @XedinUnknown)
+* fix front_page_name variable in setup
 
 
 ## 2.0.0 | 15.01.2017

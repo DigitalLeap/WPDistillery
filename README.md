@@ -26,13 +26,16 @@ Done! You can now access your project at https://localhost.dev/ or http://192.16
 
 ## Additional Information
 
-### Auto Update WordPress and Plugins
+#### Auto Update WordPress and Plugins
 If you want to automatically update WordPress and all Plugins on every `vagrant up` you can remove the comment character at line 26 inside the Vagrantfile.
 
-### Windows Support
+#### Windows Support
 Using Windows? No Problem! WPDistillery will detect if you're using Windows and if so, automatically convert all files using dos2unix.
 
-### Vagrant commands
+#### Re-run WPDistillery setup
+If the Scotch Box setup was successful, but WPDistillery failed somewhere: fix the error (probably in `config.yml`) and use `vagrant reload --provision` to reinitialize the WPDistillery setup process.
+
+#### Vagrant commands
 * `vagrant up` will start the machine. The first ever `vagrant up` in your project will also install Scotch Box and execute provisioning
 * `vagrant provision` will execute provisioning. This is where WPDistillery runs its core function which is installing and configuring WordPress according to `config.yml`. Before that, it will also update WP-CLI and set the upload size to 64MB. Normally `vagrant provision` should not be executed manually but can be used to re-run the WPDistillery setup in case you want to re-install WordPress.
 * `vagrant reload` will restart vagrant. This is required for changes made in the Vagrantfile to take effect.
