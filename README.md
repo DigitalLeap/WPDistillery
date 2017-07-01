@@ -17,7 +17,7 @@ To setup a new project running Scotch Box and WordPress, simply follow these ste
 1. Run the following command inside your project root to clone both Scotch Box and WPDistillery and move them to the right place:
 
   ```
-  git clone https://github.com/DigitalLeap/wpscotch.git && mv wpscotch/Vagrantfile Vagrantfile && mv wpscotch/wpdistillery wpdistillery2 && rm -rf wpscotch && mv wpdistillery2 wpdistillery
+  git clone https://github.com/flickerleap/wpscotch.git && mv wpscotch/Vagrantfile Vagrantfile && mv wpscotch/wpdistillery wpdistillery2 && rm -rf wpscotch && mv wpdistillery2 wpdistillery
   ```
 
 2. Run `vagrant up` inside your project root (if it fails, run `vagrant provision`)
